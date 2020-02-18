@@ -1,0 +1,94 @@
+/* This is the body */
+body {
+    background-color: rgb(71, 69, 69);
+    font-family:'Righteous', serif;
+    
+}  
+
+#hero-wrapper {
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+    position: static;
+}
+
+#name {
+    color: white;
+    width: 400px;
+    height: 400px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: left;
+    margin-top: 15%;
+    text-decoration: none;
+    position: relative;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 350px;
+    position: relative;
+
+}
+
+#biopic {
+    display: (http://i.paciolanmail.com/wpm/935/HotSeats/PlaceHolder-min.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 300px;
+    
+}
+
+h2 {
+    color: white;
+    
+}
+
+p {
+    width: 500px;
+    text-align: right;
+    color: white;
+}
+
+.standard-margin-section{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(350px, auto);
+
+    grid-gap: 15px;
+}
+
+.grid-text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 350px;
+    background-color: rgb(71, 69, 69);
+    width: 500;
+    padding-left: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-writing{
+    width: 100%;
+    text-align: left;
+    height: 350px;
+}
