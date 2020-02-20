@@ -119,21 +119,34 @@ h3 {
     grid-gap: 20px;
     margin-right: 15vw;
     margin-left: 15vw;
-    
+   
 }
 
 #box1 {
     text-align: center;
     font-size: 30px;
-    margin-top: auto;
+    margin-top: 50px;
     margin-bottom: auto;
 }
 
+
 .box {
-    background-color: rgb(89, 105, 82);
+    height: 150px;
     
     background-image: url(img/HTML5_1Color_White.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: -50px;
+    
+}
+
+.sbox {
+    
+    height: 100px;
+    background-color: rgb(89, 105, 82);
+    margin-top: 50px;
+    
+    
+
 }
