@@ -1,7 +1,7 @@
 /* This is the body */
 body {
     background-color: rgb(71, 69, 69);
-    font-family:'Righteous', serif;
+    font-family:'Open Sans', sans-serif;
     
 }  
 
@@ -43,10 +43,16 @@ h2 {
     
 }
 
+h1,h2,h3 {
+    font-family: "Palatino", serif;
+}
+
 p {
     width: 350px;
     text-align: left;
     color: white;
+    font-weight: lighter;
+    
 }
 
 .grid{
@@ -113,12 +119,20 @@ h3 {
 }
 
 .sbox {
-    background-image: url(img/HTML5_1Color_White.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    position: relative;
     background-color: rgb(0, 128, 128, 100);
 
+}
+
+.boximg{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .creators {
