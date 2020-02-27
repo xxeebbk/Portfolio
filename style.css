@@ -40,12 +40,23 @@ h1{
 
 h2 {
     color: white;
-    
+    font-size: 28px;
     
 }
 
 h1,h2,h3 {
     font-family: "Palatino", serif;
+}
+
+#profile-pic {
+    background-image: url("img/paul-gaudriault-XShgTPsoATU-unsplash.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    background-position: center;
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-left: 35%;
 }
 
 p {
@@ -136,13 +147,19 @@ h3 {
 
 .boximg{
     position: absolute;
-    top: -10px;
+    top: -20px;
     right: 0;
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.lang {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
 }
 
 .creators {
@@ -150,9 +167,9 @@ h3 {
 }
 
 #cretimg {
-    background-image: url("http://i.paciolanmail.com/wpm/935/HotSeats/PlaceHolder-min.jpg");
+    background-image: url(img/glenn-han-sowOK2LiUz8-unsplash.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: inherit;
     grid-column: 2/4;
     grid-row: 1/3;
@@ -164,9 +181,9 @@ h3 {
 }
 
 #leadimg {
-    background-image: url("http://i.paciolanmail.com/wpm/935/HotSeats/PlaceHolder-min.jpg");
+    background-image: url(img/anoir-chafik-2_3c4dIFYFU-unsplash.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: inherit;
     grid-column: 1/3;
     grid-row: 1/3;
